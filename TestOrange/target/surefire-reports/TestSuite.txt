@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.657 s <<< FAILURE! - in TestSuite
+test(test.com.id.AppTest)  Time elapsed: 0.078 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable must exist: C:\chromedriver_win321\chromedriver.exe
+	at test.com.id.AppTest.test(AppTest.java:21)
+
+afterTest(test.com.id.AppTest)  Time elapsed: 0.081 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+	at test.com.id.AppTest.afterTest(AppTest.java:38)
+
